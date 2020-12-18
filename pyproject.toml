@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "eventsNYC"
-version = "0.1.0"
+name = "NYCArtsFinder"
+version = "0.3.0"
 description = "Package helps retrieve art events near your location."
 authors = ["Chengwei Wang <chengwei.wendy.wang@gmail.com>"]
 license = "MIT"
