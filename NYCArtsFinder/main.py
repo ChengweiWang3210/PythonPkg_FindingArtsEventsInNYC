@@ -64,6 +64,11 @@ class EventsNearMe:
         a data frame containing all the information about the events holding
         near the location you input.
 
+        EXAMPLE
+        --------
+        finder = EventsNearMe()
+        finder.find_event_near_me(lat= 40.7581, lon=-73.9855)
+
         """
 
         # check for the validation of the input location
@@ -159,6 +164,10 @@ class EventsNearMe:
         RETURNS
         --------
         a map object
+
+        EXAMPLES
+        --------
+        finder.view_on_map()
 
         """
 
