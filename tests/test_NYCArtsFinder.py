@@ -1,5 +1,5 @@
-from ..NYCArtsFinder.__init__ import __version__
-from ..NYCArtsFinder.main import EventsNearMe
+from nycartsfinder.__init__ import __version__
+from nycartsfinder.main import EventsNearMe
 import folium
 
 # check for the package version
